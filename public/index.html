@@ -2,13 +2,21 @@
 <html>
     <head>
          <style>
+            body
             #typing{
                 animation: typing 5s steps(22) 1s infinite alternate;
             }
-            @keyframes 
+            @keyframes typing{
+                0%{
+                    content:"";
+                }
+                100%{
+                    content:"We are the Classy NEO's";
+                }
+            }
          </style>
     </head>
     <body>
-     <div id="typing">We are the Classy NEO's</div>
+     <div id="typing"></div>
     </body>
 </html>
